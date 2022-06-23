@@ -1,13 +1,13 @@
 #[derive(Debug)]
-struct File {
+struct File{
     name: String,
-    data: Vec<u8>,
+    data: Vec<u8>
 }
 
 fn main(){
     let f1 = File{
         name: String::from("f1.txt"),
-        data:Vec::new()
+        data: Vec::new()
     };
 
     let f1_name = &f1.name;
